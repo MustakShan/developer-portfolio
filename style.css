@@ -15,6 +15,11 @@ section {
     display: flex;
     margin-bottom: 100px;
 }
+.yoga-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 #flexible{
     display: flex;
 }
@@ -60,6 +65,11 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 }
+#border-left{
+    border-left: 8px solid;
+    border-image: linear-gradient(yellowgreen, #FF4690);
+    border-image-slice: 1;
+}
 .shadow{
     width: 50%;
     margin-left: 5%;
@@ -67,4 +77,12 @@ section {
     padding-left: 3%;
     box-shadow: 12px 12px 5px gray;
     border-radius: 10px;
+}
+#border-gradiant{
+    border-left: 8px solid;
+    border-image: linear-gradient(#FF4690, yellowgreen);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
