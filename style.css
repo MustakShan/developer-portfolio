@@ -8,9 +8,15 @@ h1{
 .lisa-manoban{
     color: yellowgreen;
 }
+h3{
+    color: #FF4690;
+}
 section {
     display: flex;
     margin-bottom: 100px;
+}
+#flexible{
+    display: flex;
 }
 .half-width{
     width: 50%;
@@ -53,4 +59,12 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.shadow{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    box-shadow: 12px 12px 5px gray;
+    border-radius: 10px;
 }
