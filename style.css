@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
@@ -9,19 +10,47 @@ h1{
 }
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
-    padding-left: 2%;
+    padding-left: 4%;
 }
 .half-width img{
     width: 70%;
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(yellowgreen, yellow);
+    background-image: linear-gradient(yellowgreen, yellowgreen);
     color: #fff;
     font-weight: 700;
     border-radius: 10px;
     padding: 10px 30px
+}
+#top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.lalisa{
+    color: #FF4690;
+}
+.left-side{
+    width: 50%;
+    padding-right: 4%;
+}
+.left-side img{
+    width: 70%;
+}
+.pink-button{
+    text-decoration: none;
+    background-image: linear-gradient(#FF4690, #FF4699);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+#dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
